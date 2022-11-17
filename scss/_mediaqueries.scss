@@ -1,0 +1,157 @@
+@media screen and (max-width: 1180px) {
+    .boxicons {
+        width: 36rem;
+        margin: 0rem 2rem;
+    }
+}
+
+@media screen and (max-width: 874px) {
+    .boxicons {
+        width: 36rem;
+        margin: 0rem 1rem;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    .roomicons {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin: 0rem 0.7rem;
+        animation-name: efecto_roomicons;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+        animation-delay: 0s;
+    }
+    @keyframes efecto_roomicons {
+        0% {
+            width: 0rem;
+            height: 0rem;
+            margin: 1.5rem 2rem;
+        }
+        33% {
+            width: 1rem;
+            height: 1rem;
+            margin: 1rem 1.5rem;
+        }
+        66% {
+            width: 2rem;
+            height: 2rem;
+            margin: 5rem 1rem;
+        }
+        100% {
+            width: 2.2rem;
+            height: 2.2rem;
+            margin: 0rem 0.7rem;
+        }
+    }
+    .boxicons {
+        width: 36rem;
+        margin: 0rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 778px){
+    h3{
+        font-size: 2.8rem;
+    }
+    .font-content{
+        font-query{
+        font-size: 1.5rem;
+    }
+    }
+}
+
+@media screen and (max-width: 487px){
+    .box4 {
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 449px){
+    .formulario {
+        textarea {
+            width: 120%;
+        }
+    }
+    .inputform {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .font-jumbotron {
+        h2 {
+            font-size: 6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .roomicons {
+        width: 2rem;
+        height: 2rem;
+        margin: 0rem 0.5rem;
+        animation-name: efecto_roomicons;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-duration: 5s;
+        animation-delay: 0s;
+    }
+    @keyframes efecto_roomicons {
+        0% {
+            width: 0rem;
+            height: 0rem;
+            margin: 1.5rem 2rem;
+        }
+        33% {
+            width: 1rem;
+            height: 1rem;
+            margin: 1rem 1.5rem;
+        }
+        66% {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin: 5rem 1rem;
+        }
+        100% {
+            width: 2rem;
+            height: 2rem;
+            margin: 0rem 0.5rem;
+        }
+    }    
+    .boxicons {
+        width: 29rem;
+        margin: 0rem 0.5rem;
+    }
+    .font-jumbotron {
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 2.3rem;
+    }
+    .font-content{
+        .font_query{
+        font-size: 1.5rem;
+    }
+    }    
+}
+
+@media screen and (max-width: 379px){
+    .formulario {
+        textarea {
+            width: 95%;
+        }
+    }
+    .inputform {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 337px){
+    .boxcontent4 {
+        p {
+            font-size: 1.5rem;
+        }
+}
+}

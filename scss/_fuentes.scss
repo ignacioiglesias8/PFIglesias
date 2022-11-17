@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5%
+}
+
+@mixin formato-fuente($font-size, $color, $text-align, $font-family) {
+    font-size: $font-size;
+    color: $color;
+    text-align: $text-align;
+    font-family: $font-family;
+}
+
+.font-nav {
+    @include formato-fuente(1.8rem, white, center, Courier);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.font-jumbotron {
+    @include formato-fuente(2rem, antiquewhite, end, auto);
+    text-shadow: 0 0 5px black;
+    h1 {
+        font-size: 10rem;
+        font-family: 'quicksand';
+    }
+    h2 {
+        font-size: 8rem;
+        text-align: center;
+    }
+    .sub{
+        text-align: center;
+    }
+}
+
+h3 {
+    @include formato-fuente(3rem, black, center, 'quicksand'); 
+}
+
+.font-content {
+    @include formato-fuente(1.8rem, black, center, Times); 
+}
+
+.font-otrainfo {
+    @include formato-fuente(1.6rem, white, center, Times); 
+}
+
+.font-form {
+    @include formato-fuente(1.8rem, black, left, Times); 
+}
+
+.font-footer{
+    @include formato-fuente(2rem, white, center, Times); 
+}
+
+.copyright {
+    @include formato-fuente(1rem, white, right, Times); 
+    margin-right: 2rem 1rem;
+}

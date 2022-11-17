@@ -1,0 +1,14 @@
+.navbar-brand {
+    height: 10rem;
+    width: 10rem;
+    padding: 0.6rem;
+}
+
+.nav-link {
+    margin: 1.25rem;
+    display: block;
+}
+
+.nav-link:hover {
+    transform: scale(1.5, 1.5)
+}

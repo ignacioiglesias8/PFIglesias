@@ -1,0 +1,31 @@
+footer {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.seguinos_en_redes {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem;
+    display: inline;
+}
+
+.icon:hover {
+    transform: scale(1.5, 1.5)
+}
+
+.top_icon {
+    display: inline;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.top_icon:hover {
+    transform: scale(1.5, 1.5)
+}

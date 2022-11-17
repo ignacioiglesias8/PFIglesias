@@ -1,0 +1,62 @@
+/*index*/
+.jumbotron1 {
+    background-image: url(../media/images/principal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 54.5rem;
+}
+
+.jumbotron2 {
+    @extend .jumbotron1;
+    height: 20rem;
+}
+
+@mixin formato-foto($background-size, $background-position, $height, $margin) {
+    background-size: $background-size;
+    background-position: $background-position;
+    height: $height;
+    margin: $margin;
+}
+
+/*tarifas*/
+.fotoroom1 {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/2personas.jpg);
+}
+
+.fotoroom2 {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/3personas.jpg);
+}
+
+/*servicios*/
+.fotodesayuno {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/desayuno.jpg);
+}
+
+.fotospa {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/spa.jpg);
+}
+
+.fotoquinchos {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/amenities.jpg);
+}
+
+/*salidas*/
+.fotonaturaleza {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/naturaleza.jpg);
+}
+
+.fotovinedos {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/vinedos.jpg);
+}
+
+.fotopena {
+    @include formato-foto(cover, center, 250px, 2rem);
+    background-image: url(../media/images/pena.jpg);
+}

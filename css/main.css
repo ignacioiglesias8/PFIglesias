@@ -1,0 +1,458 @@
+html {
+  font-size: 62.5%; }
+
+.font-nav {
+  font-size: 1.8rem;
+  color: white;
+  text-align: center;
+  font-family: Courier;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+.font-jumbotron {
+  font-size: 2rem;
+  color: antiquewhite;
+  text-align: end;
+  font-family: auto;
+  text-shadow: 0 0 5px black; }
+  .font-jumbotron h1 {
+    font-size: 10rem;
+    font-family: 'quicksand'; }
+  .font-jumbotron h2 {
+    font-size: 8rem;
+    text-align: center; }
+  .font-jumbotron .sub {
+    text-align: center; }
+
+h3 {
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  font-family: "quicksand"; }
+
+.font-content {
+  font-size: 1.8rem;
+  color: black;
+  text-align: center;
+  font-family: Times; }
+
+.font-otrainfo {
+  font-size: 1.6rem;
+  color: white;
+  text-align: center;
+  font-family: Times; }
+
+.font-form {
+  font-size: 1.8rem;
+  color: black;
+  text-align: left;
+  font-family: Times; }
+
+.font-footer {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-family: Times; }
+
+.copyright {
+  font-size: 1rem;
+  color: white;
+  text-align: right;
+  font-family: Times;
+  margin-right: 2rem 1rem; }
+
+.blackback {
+  background-color: black; }
+
+.gradback {
+  background: linear-gradient(180deg, #385312 0%, #622e0a 15%, #652d06 50%, #9e3515 69%, #bac71e 85%, #76903a 100%);
+  padding: 0px; }
+
+.grad0 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%); }
+
+.grad1 {
+  background: linear-gradient(180deg, #fee750 0%, #90853a 100%); }
+
+.grad1inv {
+  background: linear-gradient(180deg, #90853a 0%, #fee750 100%); }
+
+.grad2 {
+  background: linear-gradient(0deg, #622e0a 0%, #9e3515 100%); }
+
+.navbar-brand {
+  height: 10rem;
+  width: 10rem;
+  padding: 0.6rem; }
+
+.nav-link {
+  margin: 1.25rem;
+  display: block; }
+
+.nav-link:hover {
+  transform: scale(1.5, 1.5); }
+
+/*index*/
+.jumbotron1, .jumbotron2 {
+  background-image: url(../media/images/principal.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 54.5rem; }
+
+.jumbotron2 {
+  height: 20rem; }
+
+/*tarifas*/
+.fotoroom1 {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/2personas.jpg); }
+
+.fotoroom2 {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/3personas.jpg); }
+
+/*servicios*/
+.fotodesayuno {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/desayuno.jpg); }
+
+.fotospa {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/spa.jpg); }
+
+.fotoquinchos {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/amenities.jpg); }
+
+/*salidas*/
+.fotonaturaleza {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/naturaleza.jpg); }
+
+.fotovinedos {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/vinedos.jpg); }
+
+.fotopena {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  margin: 2rem;
+  background-image: url(../media/images/pena.jpg); }
+
+/*config. tarifas-icons*/
+.roomicons {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0rem 1rem;
+  animation-name: efecto_roomicons;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-delay: 0s; }
+
+@keyframes efecto_roomicons {
+  0% {
+    width: 0rem;
+    height: 0rem;
+    margin: 1.5rem 2rem; }
+  33% {
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem 1.5rem; }
+  66% {
+    width: 2rem;
+    height: 2rem;
+    margin: 5rem 1rem; }
+  100% {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0rem 1rem; } }
+
+/*config. contacto-map*/
+.boxmapa {
+  width: auto;
+  height: 18rem;
+  margin: 2rem;
+  border: 0rem;
+  position: relative;
+  overflow: hidden; }
+
+.map {
+  width: 100%;
+  height: 18rem;
+  margin: 0rem;
+  padding: 0rem;
+  border: 0rem; }
+
+/*config. contacto-formulario*/
+.formulario {
+  width: auto;
+  height: 31rem;
+  padding: 1rem;
+  margin: 2rem;
+  position: relative; }
+  .formulario form {
+    margin: auto;
+    width: 20rem;
+    text-align: left;
+    margin-left: 0rem; }
+  .formulario textarea {
+    height: 60%;
+    width: 150%; }
+
+.inputform {
+  height: 2.8rem;
+  width: 150%;
+  padding: 0; }
+
+footer {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem; }
+
+.seguinos_en_redes {
+  display: inline-block;
+  margin: 2rem; }
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 2rem;
+  display: inline; }
+
+.icon:hover {
+  transform: scale(1.5, 1.5); }
+
+.top_icon {
+  display: inline;
+  justify-content: center;
+  margin: 2rem 0rem; }
+
+.top_icon:hover {
+  transform: scale(1.5, 1.5); }
+
+/*config. main-general*/
+.row {
+  margin: 0px; }
+
+.rowmargin {
+  margin-top: 3rem; }
+
+.softborder {
+  border: solid 0.1rem black; }
+
+.text_align {
+  display: flex;
+  align-content: center;
+  align-items: center; }
+
+.boxheader {
+  height: 2.5rem;
+  width: auto;
+  margin: 3rem;
+  padding: 0rem;
+  position: relative; }
+
+.box1 {
+  height: 38rem;
+  width: auto;
+  margin: 4rem 1rem;
+  padding: 0rem;
+  position: relative;
+  display: inline-block; }
+
+.box2 {
+  height: 65rem;
+  width: auto;
+  margin: 4rem 1rem;
+  padding: 0rem;
+  position: relative;
+  display: inline-block; }
+
+.box3 {
+  height: 42rem;
+  width: 100%;
+  margin: 4rem 0rem;
+  padding: 0rem;
+  position: relative;
+  display: inline-block; }
+
+.box4 {
+  height: 15rem;
+  width: 98rem;
+  margin: 2.5rem 1rem;
+  padding: 0rem;
+  position: relative;
+  display: inline-block; }
+
+.boxcontent1 {
+  height: 27rem;
+  width: auto;
+  margin: 2rem;
+  padding: 1rem;
+  position: relative; }
+
+.boxcontent2 {
+  height: 12rem;
+  width: auto;
+  margin: 2rem;
+  padding: 1rem;
+  position: relative; }
+
+.boxcontent3 {
+  height: 18rem;
+  width: auto;
+  margin: 2rem;
+  padding: 1rem;
+  position: relative; }
+
+.boxcontent4 {
+  height: 18rem;
+  width: auto;
+  margin: 2rem;
+  padding: 1rem;
+  position: relative; }
+
+.boxicons {
+  height: 5rem;
+  width: auto;
+  margin: 0rem 3rem;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  justify-content: space-between; }
+
+.boxfoto {
+  height: 25rem;
+  width: auto; }
+
+@media screen and (max-width: 1180px) {
+  .boxicons {
+    width: 36rem;
+    margin: 0rem 2rem; } }
+
+@media screen and (max-width: 874px) {
+  .boxicons {
+    width: 36rem;
+    margin: 0rem 1rem; } }
+
+@media screen and (max-width: 788px) {
+  .roomicons {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 0rem 0.7rem;
+    animation-name: efecto_roomicons;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 0s; }
+  @keyframes efecto_roomicons {
+    0% {
+      width: 0rem;
+      height: 0rem;
+      margin: 1.5rem 2rem; }
+    33% {
+      width: 1rem;
+      height: 1rem;
+      margin: 1rem 1.5rem; }
+    66% {
+      width: 2rem;
+      height: 2rem;
+      margin: 5rem 1rem; }
+    100% {
+      width: 2.2rem;
+      height: 2.2rem;
+      margin: 0rem 0.7rem; } }
+  .boxicons {
+    width: 36rem;
+    margin: 0rem 0.5rem; } }
+
+@media screen and (max-width: 778px) {
+  h3 {
+    font-size: 2.8rem; }
+  .font-content font-query {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 487px) {
+  .box4 {
+    height: 25rem; } }
+
+@media screen and (max-width: 449px) {
+  .formulario textarea {
+    width: 120%; }
+  .inputform {
+    width: 120%; } }
+
+@media screen and (max-width: 415px) {
+  .font-jumbotron h2 {
+    font-size: 6rem; } }
+
+@media screen and (max-width: 400px) {
+  .roomicons {
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem 0.5rem;
+    animation-name: efecto_roomicons;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-delay: 0s; }
+  @keyframes efecto_roomicons {
+    0% {
+      width: 0rem;
+      height: 0rem;
+      margin: 1.5rem 2rem; }
+    33% {
+      width: 1rem;
+      height: 1rem;
+      margin: 1rem 1.5rem; }
+    66% {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 5rem 1rem; }
+    100% {
+      width: 2rem;
+      height: 2rem;
+      margin: 0rem 0.5rem; } }
+  .boxicons {
+    width: 29rem;
+    margin: 0rem 0.5rem; }
+  .font-jumbotron {
+    font-size: 1.8rem; }
+  h3 {
+    font-size: 2.3rem; }
+  .font-content .font_query {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 379px) {
+  .formulario textarea {
+    width: 95%; }
+  .inputform {
+    width: 95%; } }
+
+@media screen and (max-width: 337px) {
+  .boxcontent4 p {
+    font-size: 1.5rem; } }
